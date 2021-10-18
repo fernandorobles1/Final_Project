@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :replies
-  resources :discussions
+  resources :channels
+  resources :discussions do
+    resources :replies
+  end
   get 'home/index'
   devise_for :users, controllers: {
         resgistrations: 'users/registrations'
