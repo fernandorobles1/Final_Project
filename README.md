@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+LinK to Trello: https://trello.com/b/RS5sW4wv/proyecto-g44
